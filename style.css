@@ -42,14 +42,10 @@ body {
   display: flex;
   flex-direction: column;
   height: auto;
-  margin: 4rem auto;
   padding: 1.5rem;
 }
 
 .encabezado {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   text-align: left;
   max-width: 30rem;
   margin: 1rem 0;
@@ -73,20 +69,19 @@ body {
   margin-bottom: 2.5rem;
 }
 
-.div-cards {
+.section-cards {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
 .cards {
-  border: 0.2rem solid black;
   background-color: white;
-  border-radius: 0.5rem;
   padding: 1rem;
   width: 30rem;
   height: auto;
-  margin: 1.5rem auto;
+  margin: 0 auto 1.5rem auto;
+  border-radius: 1.8rem;
 }
 
 .h3 {
@@ -105,4 +100,19 @@ body {
   width: 5rem;
   height: 5rem;
   margin: 2rem 0 0 22rem;
+}
+.cards-1 {
+  border-top: 0.4rem solid var(--primaryCyan);
+}
+
+.cards-2 {
+  border-top: 0.4rem solid var(--primaryRed);
+}
+
+.cards-3 {
+  border-top: 0.4rem solid var(--primaryOrange);
+}
+
+.cards-4 {
+  border-top: 0.4rem solid var(--primaryBlue);
 }
