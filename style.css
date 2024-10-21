@@ -125,6 +125,10 @@ body {
   }
     */
 
+  .contenedor-principal {
+    margin-top: 8rem;
+  }
+
   .encabezado {
     width: 60vw;
     max-width: 60rem;
