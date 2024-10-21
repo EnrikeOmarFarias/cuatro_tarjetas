@@ -38,17 +38,18 @@ body {
   height: 90%;
 }
 
-.contenedor-secundario {
+/*.contenedor-secundario {
   display: flex;
   flex-direction: column;
   height: auto;
   padding: 1.5rem;
 }
+  */
 
 .encabezado {
   text-align: left;
-  max-width: 30rem;
-  margin: 1rem 0;
+  width: 35rem;
+  margin: 1rem;
 }
 
 .h1 {
@@ -66,7 +67,7 @@ body {
   font-size: var(--md);
   color: var(--neutralGrayishBlue);
   font-weight: 400;
-  margin-bottom: 2.5rem;
+  margin-bottom: 6rem;
 }
 
 .section-cards {
@@ -115,4 +116,43 @@ body {
 
 .cards-4 {
   border-top: 0.4rem solid var(--primaryBlue);
+}
+
+@media (min-width: 660px) {
+  /*.contenedor-secuandario {
+    width: 90%;
+    margin: 0 auto;
+  }
+    */
+
+  .encabezado {
+    width: 60vw;
+    max-width: 60rem;
+    text-align: center;
+    letter-spacing: 1.5;
+    margin: 0 auto;
+  }
+
+  .cards {
+    height: 20rem;
+  }
+
+  .section-cards {
+    position: relative;
+    width: 100rem;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .cards-1 {
+    position: absolute;
+    top: 12rem;
+    left: 1rem;
+  }
+
+  .cards-4 {
+    position: absolute;
+    top: 12rem;
+    right: 1rem;
+  }
 }
